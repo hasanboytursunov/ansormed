@@ -1,0 +1,129 @@
+/* open-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/open-sans-v35-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/open-sans-v35-latin-regular.woff2") format("woff"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+.body {
+  font-size: 16px;
+  color: #444;
+}
+ul,
+ol {
+  list-style: none;
+}
+.a {
+  text-decoration: none;
+}
+/* CONTAINER */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+/* HAEDER START */
+
+.header {
+  padding: 24px 0;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sitenav-list {
+  display: flex;
+}
+.sitenav-item:not(:last-child) {
+  margin-right: 32px;
+}
+.sitenav-link {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: black;
+  font-weight: 700;
+}
+.qabulga-yozilish-button {
+  background-color: #de2e54;
+  padding: 12px 24px;
+  border-radius: 8px;
+  color: white;
+  text-transform: uppercase;
+  align-items: center;
+}
+
+/* HAEDER END */
+
+/* MAIN START */
+/* HERO START */
+.hero {
+  background-color: #0eb4c1;
+  padding-top: 29px;
+}
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-info {
+  max-width: 500px;
+  color: #ffffff;
+}
+.hero-title {
+  font-size: 36px;
+  margin-bottom: 16px;
+}
+.hero-description {
+  margin-bottom: 36px;
+}
+.hero-description-wrapper {
+  max-width: 440px;
+}
+
+/* HERO END */
+/* SERVICES START */
+.services-x {
+  padding-top: 120px;
+  text-align: center;
+}
+/* SERVICES END */
+.services-descriptioin {
+  display: flex;
+  margin-bottom: auto;
+}
+
+.Qabulga-ro’yxatdan-o’ting-button {
+  background-color: #0eb4c1;
+  color: #fff;
+  width: 1440px;
+  height: 253px;
+  margin-bottom: 16px;
+}
+.aig {
+  align-items: center;
+  padding: auto;
+  background-color: #0eb4c1;
+}
+.services-container {
+  align-items: center;
